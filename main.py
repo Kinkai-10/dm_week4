@@ -20,3 +20,7 @@ print(model.theta)
 #test predict
 model.predict(X)
 print(model.predict(X))
+
+#test score
+model.score(X,Y)
+print(model.score(X,Y))
