@@ -12,4 +12,4 @@ def load_nonlinear_example1():
 
 def polynomial2_features(input):
     poly2  = input[:,1:]**2
-    retun np.c_[input, poly2]
+    return np.c_[input, poly2]
